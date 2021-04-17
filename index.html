@@ -1,0 +1,43 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <h2> RGB | COLOR SELECTOR</h2>
+        <div class="slider">
+            (R) Red:   <br>
+            
+ 
+            <input type="range" name="range_red" id="range_red" min="0" max="255" value="0" step="1">
+            <textarea id="range_red_output" disabled></textarea>
+            <br>
+            (G) Green: <br>
+            <input type="range" name="range_green" id="range_green" min="0" max="255" value="0" step="1">
+
+           <textarea id="range_green_output" disabled></textarea>
+
+            <br>
+            (B) Blue:   <br>
+            <input type="range" name="range_blue" id="range_blue" min="0" max="255" value="0" step="1">
+            <textarea id="range_blue_output" disabled></textarea>
+  
+
+        </div>
+        <br><br>
+        <div id="quadrado_RGB">  </div>
+
+       <span class="result"><output type="number" name="RGB_color" id="RGB_color"></output></span>
+  
+
+        <script src="script.js">  </script>
+
+    </body>
+    </html>

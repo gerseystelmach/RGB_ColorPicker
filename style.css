@@ -1,0 +1,44 @@
+body {
+
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: #e2e1e8; 
+}
+h2 {
+color: #5a5866;
+}
+.slider input{
+        width: 200px;
+        height: 30px;
+        display: inline-flexbox;
+    }
+
+    textarea {
+        resize: none;
+        color: black;
+        background-color: gainsboro;
+        border: black solid 1px;
+        width: 60px;
+        height: 25px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+#quadrado_RGB{
+	width: 200px;
+    height: 200px;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    margin-left: 5px;
+}
+
+ .result output  {
+  margin-left: 5px;
+    
+
+   background-color: none;
+   
+
+}
+
